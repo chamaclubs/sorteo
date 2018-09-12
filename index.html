@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jackpot!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/cargadores.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/js.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/movimientos.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+
+
+</head>
+
+
+<!-- Indicaciones-->
+
+<!-- Indicaciones-->
+
+<body>
+    <video autoplay="autoplay" controls="true" loop="loop" id="video_background" preload="auto" muted volume="0">
+        <source src="intro.mp4" type="video/mp4" />
+    </video>
+
+    <div class="container" id="cuerpoApp">
+
+    </div>
+
+
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        console.log("ready!");
+        cargadorModulo('cuerpoApp', 'termometros', 'termometros')
+    });
+</script>
+
+</html>
